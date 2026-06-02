@@ -1,16 +1,16 @@
-## 💰Adult Income Prediction: Linear Regression vs SVM vs Neural Network
+## Adult Income Prediction: Linear Regression vs SVM vs Neural Network
 
 ## 🔎Abstract
 This project applies theoretical concepts from my Machine Learning course by implementing three models on the UCI Adult Income dataset: Linear Regression, Support Vector Machine (SVM), and a shallow Neural Network. The task is binary classification — predicting whether an individual's annual income exceeds $50K. All three models achieved similar test accuracy (84–85%), with linear regression falling just 1% short of the neural network. This result suggests that the underlying decision boundary for this dataset is approximately linear.
 
-## Motivation
+## ✨Motivation
 This project demonstrates:
 - Implementation of three fundamental ML models from scratch (using scikit-learn and PyTorch)
 - Systematic comparison on a real-world dataset
 - Handling of categorical features, missing data, and class imbalance
 - Understanding of when simple models are sufficient
 
-## ✨Dataset
+## 📊Dataset
 - **Source**: UCI Adult Income (also known as "Census Income")
 - **Samples**: 48,842
 - **Features**: 14 (age, education, occupation, hours-per-week, etc.)
