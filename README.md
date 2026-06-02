@@ -33,7 +33,7 @@ This project demonstrates:
 | SVM | **85%** |
 | Neural Network | **85%** |
 
-**Key observation**: The neural network and SVM do not significantly outperform linear regression. This indicates that the relationship between features and income is approximately linear. It's not efficient to use a neural network or SVM here while we can solve the problem using linear regression which leads us towards less computing complexity.
+**Key observation**: The neural network and SVM do not significantly outperform linear regression. This indicates that the relationship between features and income is approximately linear. It's not sufficient to use a neural network or SVM here while we can solve the problem using linear regression which leads us towards less computing complexity.
 
 ## Discussion
 
