@@ -1,7 +1,7 @@
 ## Adult Income Prediction: Linear Regression vs SVM vs Neural Network
 
 ## 🔎Abstract
-This project applies theoretical concepts from my Machine Learning course by implementing three models on the UCI Adult Income dataset: Linear Regression, Support Vector Machine (SVM), and a shallow Neural Network. The task is binary classification — predicting whether an individual's annual income exceeds $50K. All three models achieved similar test accuracy (84–85%), with linear regression falling just 1% short of the neural network. This result suggests that the underlying decision boundary for this dataset is approximately linear.
+This project applies theoretical concepts from my Machine Learning course by implementing three models on the UCI Adult Income dataset: logistic Regression, Support Vector Machine (SVM), and a shallow Neural Network. The task is binary classification — predicting whether an individual's annual income exceeds $50K. All three models achieved similar test accuracy (84–85%), with logistic regression falling just 1% short of the neural network. This result suggests that the underlying decision boundary for this dataset is approximately linear.
 
 ## ✨Motivation
 This project demonstrates:
@@ -21,7 +21,7 @@ This project demonstrates:
 
 | Model | Library | Key Details |
 |-------|---------|--------------|
-| Linear Regression | NumPy, pandas | Implemented from scratch using no ML library |
+| Logistic Regression | NumPy, pandas | Implemented from scratch using no ML library |
 | SVM | scikit-learn | RBF kernel, C=1 |
 | Neural Network | PyTorch | 1 hidden layers, ReLU, binary cross-entropy loss |
 
@@ -29,22 +29,22 @@ This project demonstrates:
 
 | Model | Test Accuracy |
 |-------|---------------|
-| Linear Regression | **84%** |
+| Logistic Regression | **84%** |
 | SVM | **85%** |
 | Neural Network | **85%** |
 
-**Key observation**: The neural network and SVM do not significantly outperform linear regression. This indicates that the relationship between features and income is approximately linear.It is unnecessary to train a neural network or SVM for this problem, since we can achieve the same result using linear regression, which leads to lower computational complexity
+**Key observation**: The neural network and SVM do not significantly outperform logistic regression. This means a straight‑line boundary separates most high‑income from low‑income individuals — the data is nearly linearly separable.It is unnecessary to train a neural network or SVM for this problem, since we can achieve the same result using logistic regression, which leads to lower computational complexity
 
 ## 🎭Discussion
 
-All three models achieved 84–85% accuracy on the Adult Income dataset. The neural network — with one hidden layer and SVM — did not outperform linear regression. 
+All three models achieved 84–85% accuracy on the Adult Income dataset. The neural network — with one hidden layer and SVM — did not outperform logistic regression. 
 
 **What I learned from this:**
 - Adding complexity (more layers, advanced optimizers) doesn't guarantee better results.
 - A simple model trained in 0.2 seconds can be as useful as one taking 45 seconds.
 - Model's performance also depends on the dataset, increasing the model's power will not necessary improve it
 
-**For my future research:** I want to understand what makes some datasets require non-linear models while others don't. This project raised that question for me.
+**For my future research:** I want to understand what distinguishes datasets where a linear decision boundary is sufficient from those that truly require non-linear models.
 
 ## 🔧Setup & Reproduction
 
