@@ -25,7 +25,7 @@ This project applies linear regression to the UCI Adult Income dataset to predic
 | **Gradient descent** | One‑step update: dw = (1/m)·Xᵀ·(ŷ−y), db = (1/m)·Σ(ŷ−y) | `numpy` |
 | **Training loop** | Iterative parameter updates for 1000 epochs, tracked cost & accuracy | `numpy` |
 | **Prediction** | ŷ = sigmoid(X·θ + b), threshold at 0.5 | `numpy` |
-| **Accuracy metric** | Custom `accuracy_score` (comparison + mean) | `numpy` (no `sklearn.metrics`) |
+| **Accuracy metric** | Custom `accuracy_score` (comparison + mean) | `numpy` |
 | **Visualization** | Loss curve + accuracy over epochs | `matplotlib` |
 ### Requirements
 - Python 3.9+
