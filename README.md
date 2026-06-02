@@ -1,6 +1,6 @@
-## 💰 Adult Income Prediction: Linear Regression vs SVM vs Neural Network
+## 💰Adult Income Prediction: Linear Regression vs SVM vs Neural Network
 
-## Abstract
+## 🔎Abstract
 This project applies theoretical concepts from my Machine Learning course by implementing three models on the UCI Adult Income dataset: Linear Regression, Support Vector Machine (SVM), and a shallow Neural Network. The task is binary classification — predicting whether an individual's annual income exceeds $50K. All three models achieved similar test accuracy (84–85%), with linear regression falling just 1% short of the neural network. This result suggests that the underlying decision boundary for this dataset is approximately linear.
 
 ## Motivation
@@ -10,14 +10,14 @@ This project demonstrates:
 - Handling of categorical features, missing data, and class imbalance
 - Understanding of when simple models are sufficient
 
-## Dataset
+## ✨Dataset
 - **Source**: UCI Adult Income (also known as "Census Income")
 - **Samples**: 48,842
 - **Features**: 14 (age, education, occupation, hours-per-week, etc.)
 - **Target**: Binary (≤50K / >50K)
 - **Class distribution**: ~76% ≤50K, ~24% >50K (imbalanced)
 
-## Models & Implementation
+## 🧠Models & Implementation
 
 | Model | Library | Key Details |
 |-------|---------|--------------|
@@ -25,7 +25,7 @@ This project demonstrates:
 | SVM | scikit-learn | RBF kernel, C=1 |
 | Neural Network | PyTorch | 1 hidden layers, ReLU, binary cross-entropy loss |
 
-## Results
+## 📚Results
 
 | Model | Test Accuracy |
 |-------|---------------|
@@ -35,7 +35,7 @@ This project demonstrates:
 
 **Key observation**: The neural network and SVM do not significantly outperform linear regression. This indicates that the relationship between features and income is approximately linear.It is unnecessary to train a neural network or SVM for this problem, since we can achieve the same result using linear regression, which leads to lower computational complexity
 
-## Discussion
+## 🎭Discussion
 
 All three models achieved 84–85% accuracy on the Adult Income dataset. The neural network — with one hidden layer and SVM — did not outperform linear regression. 
 
@@ -46,7 +46,7 @@ All three models achieved 84–85% accuracy on the Adult Income dataset. The neu
 
 **For my future research:** I want to understand what makes some datasets require non-linear models while others don't. This project raised that question for me.
 
-## Setup & Reproduction
+## 🔧Setup & Reproduction
 
 ### Requirements
 - Python 3.9+
