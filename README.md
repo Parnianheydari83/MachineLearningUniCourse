@@ -1,4 +1,4 @@
-# Adult Income Prediction: Linear Regression vs SVM vs Neural Network
+## 💰 Adult Income Prediction: Linear Regression vs SVM vs Neural Network
 
 ## Abstract
 This project applies theoretical concepts from my Machine Learning course by implementing three models on the UCI Adult Income dataset: Linear Regression, Support Vector Machine (SVM), and a shallow Neural Network. The task is binary classification — predicting whether an individual's annual income exceeds $50K. All three models achieved similar test accuracy (84–85%), with linear regression falling just 1% short of the neural network. This result suggests that the underlying decision boundary for this dataset is approximately linear.
@@ -6,7 +6,7 @@ This project applies theoretical concepts from my Machine Learning course by imp
 ## Motivation
 This project demonstrates:
 - Implementation of three fundamental ML models from scratch (using scikit-learn and PyTorch)
-- Systematic comparison on a real-world tabular dataset
+- Systematic comparison on a real-world dataset
 - Handling of categorical features, missing data, and class imbalance
 - Understanding of when simple models are sufficient
 
@@ -33,7 +33,7 @@ This project demonstrates:
 | SVM | **85%** |
 | Neural Network | **85%** |
 
-**Key observation**: The neural network and SVM do not significantly outperform linear regression. This indicates that the relationship between features and income is approximately linear. It's not sufficient to use a neural network or SVM here while we can solve the problem using linear regression which leads us towards less computing complexity.
+**Key observation**: The neural network and SVM do not significantly outperform linear regression. This indicates that the relationship between features and income is approximately linear.It is unnecessary to train a neural network or SVM for this problem, since we can achieve the same result using linear regression, which leads to lower computational complexity
 
 ## Discussion
 
@@ -42,7 +42,7 @@ All three models achieved 84–85% accuracy on the Adult Income dataset. The neu
 **What I learned from this:**
 - Adding complexity (more layers, advanced optimizers) doesn't guarantee better results.
 - A simple model trained in 0.2 seconds can be as useful as one taking 45 seconds.
-- The model's performance depends on the data too , just improving its power is not gonna make it better
+- Model's performance also depends on the dataset, increasing the model's power will not necessary improve it
 
 **For my future research:** I want to understand what makes some datasets require non-linear models while others don't. This project raised that question for me.
 
