@@ -51,5 +51,5 @@ All three models achieved 84–85% accuracy on the Adult Income dataset. The neu
 ### Requirements
 - Python 3.9+
 - numpy, pandas, scikit-learn, torch, matplotlib
-- See `requirements.txt`
+
 
