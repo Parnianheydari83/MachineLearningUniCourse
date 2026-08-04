@@ -29,11 +29,5 @@ This project applies linear regression to the UCI Adult Income dataset to predic
 | **Visualization** | Loss curve + accuracy over epochs | `matplotlib` |
 ### Requirements
 - Python 3.9+
-- PyTorch 2.0+ (CPU or CUDA)
 - See `requirements.txt`
 
-### Installation
-```bash
-git clone [your-repo-url]
-cd [repo-name]
-pip install -r requirements.txt
