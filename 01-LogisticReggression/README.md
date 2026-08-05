@@ -1,7 +1,7 @@
-# Adult Income Prediction – Linear Regression (from scratch)
+# Adult Income Prediction – Logistic Regression (from scratch)
 
 ## 🔎Abstract
-This project applies linear regression to the UCI Adult Income dataset to predict whether an individual earns more than $50K.Unlike typical implementations that rely on scikit-learn, I implemented the model from scratch using NumPy and pandas .After preprocessing (dropping missing values, one‑hot encoding, stratified 80/20 split), the model achieved 84% test accuracy. The result served as a baseline to compare the model against more complex models(SVM and Neural Network) Which surprisingly they only reached 85% .
+This project applies logistic regression to the UCI Adult Income dataset to predict whether an individual earns more than $50K.Unlike typical implementations that rely on scikit-learn, I implemented the model from scratch using NumPy and pandas .After preprocessing (dropping missing values, one‑hot encoding, stratified 80/20 split), the model achieved 84% test accuracy. The result served as a baseline to compare the model against more complex models(SVM and Neural Network) Which surprisingly they only reached 85% .
 
 ## ✨Motivation
 - Bridging theory and practice - moving from whiteboard equations to working, evaluatable code that runs on actual census data.

@@ -1,4 +1,4 @@
-## Adult Income Prediction: Linear Regression vs SVM vs Neural Network
+## Adult Income Prediction: Logistic Regression vs SVM vs Neural Network
 
 ## 🔎Abstract
 This project applies theoretical concepts from my Machine Learning course by implementing three models on the UCI Adult Income dataset: logistic Regression, Support Vector Machine (SVM), and a shallow Neural Network. The task is binary classification — predicting whether an individual's annual income exceeds $50K. All three models achieved similar test accuracy (84–85%), with logistic regression falling just 1% short of the neural network. This result suggests that the underlying decision boundary for this dataset is approximately linear.
